@@ -834,6 +834,25 @@ elif st.session_state.stage == "advanced":
             Early intervention and movement training may significantly help
             improve confidence, coordination, and long-term independence.
             """)
+        st.markdown(
+            """
+            <a href="https://www.sciencetainment.net" target="_self">
+                <button style="
+                    background-color:#f5c542;
+                    color:#020817;
+                    padding:14px 28px;
+                    border:none;
+                    border-radius:999px;
+                    font-size:18px;
+                    font-weight:700;
+                    cursor:pointer;
+                    box-shadow:0 0 18px rgba(245,197,66,0.35);">
+                    Return to The Science of Graceful Aging
+                </button>
+            </a>
+            """,
+            unsafe_allow_html=True
+        )
 
 
 
